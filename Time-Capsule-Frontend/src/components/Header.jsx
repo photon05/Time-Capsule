@@ -5,7 +5,7 @@ const Header = ({logout}) => {
   const username = localStorage.getItem("username");
   return (
     <div className="w-full h-16 bg-gray-900 fixed top-0 left-0 flex items-center justify-between px-4 z-10">
-      <h1 className="text-white text-4xl font-montserrat">Time Capsule</h1>
+      <h1 className="text-white text-4xl font-montserrat">Time Capsule Feature</h1>
       {username ? (
         <button onClick={logout} className="text-white bg-red-500 hover:bg-red-600 px-4 py-2 rounded transition duration-300">
           Logout
