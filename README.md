@@ -1,5 +1,2 @@
 This is Time Capsule
-
-
-
-// Customize this readme file
+This Project is not fully developed
